@@ -8,5 +8,7 @@
 
 ### Tools
 
-Chart.JS
-Highcharts
+|Connectors|Contexts|Informers|Presenters|Tools|
+|-|-|-|-|-|
+|||||ChartJS|
+|||||Highcharts|
