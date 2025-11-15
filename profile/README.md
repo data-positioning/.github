@@ -1,12 +1,9 @@
-Connectors
+**Connectors:** dexie.js, file-store-emulator
 
-Contexts
-Default
+**Contexts:** Default
 
-Informers
-Default
+**Informers:** Default
 
-Presenters
-Default
+**Presenters:** Default
 
-Tools: ChartJS, Highcharts
+**Tools:** ChartJS, Highcharts
