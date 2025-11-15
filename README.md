@@ -1,6 +1,4 @@
-# .github
-
-# Data Positioning
+# Data Positioning (.github)
 
 A collection of Data Positioning top level project documentation and resources.
 
