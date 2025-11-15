@@ -1,9 +1,9 @@
 **Connectors:** dexie.js, file-store-emulator
 
-**Contexts:** Default
+**Contexts:** default
 
-**Informers:** Default
+**Informers:** default
 
-**Presenters:** Default
+**Presenters:** default
 
-**Tools:** ChartJS, Highcharts
+**Tools:** highcharts, micromark
