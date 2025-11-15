@@ -1,4 +1,4 @@
-**Connectors:** dexie-js, file-store-emulator
+**Connectors:** application-emulator, dexie-js, file-store-emulator
 
 **Contexts:** default
 
