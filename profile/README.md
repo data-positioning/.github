@@ -1,4 +1,12 @@
-|Connectors|Contexts|Informers|Presenters|Tools|
-|-|-|-|-|-|
-|||||ChartJS|
-|||||Highcharts|
+Connectors
+
+Contexts
+Default
+
+Informers
+Default
+
+Presenters
+Default
+
+Tools: ChartJS, Highcharts
