@@ -2,7 +2,7 @@
 
 **Application:** api *(private)*, app-nuxt *(private)*, engine *(private)*, resources *(private)* & shared.
 
-**Connectors:** application-emulator, dexie-js, *dropbox*, file-store-emulator, *google-drive*, *microsoft-onedrive* & *rxdb*.
+**Connectors:** application-emulator, dexie-js, *dbnomics*, *dropbox*, file-store-emulator, *google-drive*, *microsoft-onedrive*, *rxdb*, *salesforce* & *sap-successfactors*.
 
 **Contexts:** default.
 
