@@ -1,7 +1,11 @@
-**Connectors:** application-emulator, dexie-js, file-store-emulator
+### Data Positioning (datapos) repositories:
 
-**Contexts:** default
+**Application:** shared, app-nuxt (private) and api.
 
-**Presenters:** default
+**Connectors:** application-emulator, dexie-js, file-store-emulator.
 
-**Tools:** highcharts, micromark
+**Contexts:** default.
+
+**Presenters:** default.
+
+**Tools:** highcharts and micromark
