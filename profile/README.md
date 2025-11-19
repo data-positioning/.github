@@ -2,8 +2,6 @@
 
 **Contexts:** default
 
-**Informers:** default
-
 **Presenters:** default
 
 **Tools:** highcharts, micromark
