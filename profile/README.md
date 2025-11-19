@@ -1,13 +1,13 @@
 ### Data Positioning (datapos) repositories:
 
-**Application:** api (private), app-nuxt (private), engine (private) and shared.
+**Application:** api (private), app-nuxt (private), engine (private) & shared.
 
-**Connectors:** application-emulator, dexie-js, file-store-emulator and rxdb.
+**Connectors:** application-emulator, dexie-js, file-store-emulator & rxdb.
 
 **Contexts:** default.
 
 **Presenters:** default.
 
-**Tools:** highcharts and micromark.
+**Tools:** csv-parse, date-fns, highcharts & micromark.
 
 **Support:** development.
