@@ -1,6 +1,6 @@
 {
     "name": ".github",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "devDependencies": {
         "@datapos/datapos-development": "^0.3.253",
         "prettier": "^3.7.4"
