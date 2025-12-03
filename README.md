@@ -25,11 +25,9 @@ A collection of Data Positioning top level project documentation and resources.
 |             | datapos-tool-highcharts                | tool                   |                                                                             |
 |             | datapos-tool-presenter                 | tool                   |                                                                             |
 
-## Partners
+## Software & Services
 
-### Services
-
-Services used in the development, hosting and support of the Data Positioning solution.
+Services used to support the production environment:
 
 | Name                                       | Notes                                                                       |
 | ------------------------------------------ | --------------------------------------------------------------------------- |
@@ -41,12 +39,14 @@ Services used in the development, hosting and support of the Data Positioning so
 | [Honeybadger](https://www.honeybadger.io/) | Error logging and uptime monitoring.                                        |
 | [Namecheap](https://www.namecheap.com/)    | Email hosting.                                                              |
 
-| Name                                        | Notes |
-| ------------------------------------------- | ----- |
-| [GitGuardian](https://www.gitguardian.com/) |       |
-| [GitHub](https://github.com/home)           |       |
-| [npm](https://www.npmjs.com/)               |       |
-| [Tolgee](https://tolgee.io/)                |       |
+Services used to support the development environment:
+
+| Name                                        | Notes                   |
+| ------------------------------------------- | ----------------------- |
+| [GitGuardian](https://www.gitguardian.com/) | Security management.    |
+| [GitHub](https://github.com/home)           | Source code management. |
+| [npm](https://www.npmjs.com/)               | Package deployment      |
+| [Tolgee](https://tolgee.io/)                | Language translation.   |
 
 | Name                                       | Notes |
 | ------------------------------------------ | ----- |
