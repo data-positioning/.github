@@ -2,35 +2,67 @@
 
 A collection of Data Positioning top level project documentation and resources.
 
-## Partners
-
-### Development/Operational Tools
-
-| Name                                                      | Notes |
-| --------------------------------------------------------- | ----- |
-| [Draw.io](https://app.diagrams.net/)                      |       |
-| [Netlify](https://app.netlify.com/teams/datapos/overview) |       |
-|                                                           |       |
-|                                                           |       |
-
-### Development Components/Libraries
-
-| Name | Notes |
-| ---- | ----- |
-|      |       |
-|      |       |
-
-### Production Components/Libraries
-
-| Name | Notes |
-| ---- | ----- |
-|      |       |
-|      |       |
-
-## Project Dependencies
+## Project (repository) Schematic
 
 ![](Project%20Dependencies.svg 'Project Dependencies')
 
+| Category    | Name                                   | Type                   | Notes                                                                            |
+| ----------- | -------------------------------------- | ---------------------- | -------------------------------------------------------------------------------- |
+|             | .github                                | documentation          | This repository.                                                                 |
+| development | datapos-development                    | utilities (node)       | A library of utilities for managing the Data Positioning repositories.           |
+|             | eslint-config-datapos                  | eslintConfig           | Base ESLint configuration used by all Data Positioning (@datapos') repositories. |
+| production  | datapos-api                            | api                    |                                                                                  |
+|             | datapos-app-nuxt                       | app                    |                                                                                  |
+|             | datapos-engine                         | engine                 |                                                                                  |
+|             | datapos-resources                      | assets                 |                                                                                  |
+|             | datapos-shared                         | declarations/utilities |                                                                                  |
+|             | datapos-connector-application-emulator | connector              |                                                                                  |
+|             | datapos-connector-dexie-js             | connector              |                                                                                  |
+|             | datapos-connector-file-store-emulator  | connector              |                                                                                  |
+|             | datapos-connector-rxdb                 | connector              |                                                                                  |
+|             | datapos-context-default                | context                |                                                                                  |
+|             | datapos-presenter-default              | presenter              |                                                                                  |
+|             | datapos-tool-highcharts                | tool                   |                                                                                  |
+|             | datapos-tool-presenter                 | tool                   |                                                                                  |
+
+## Partners
+
+### Services
+
+Services used in the development, hosting and support of the Data Positioning solution.
+
+| Name                                        | Notes |
+| ------------------------------------------- | ----- |
+| Alby Chat                                   |       |
+| [Checkly](https://www.checklyhq.com/)       |       |
+| [Cloudflare](https://www.cloudflare.com/)   |       |
+| [Cronitor](https://cronitor.io/)            |       |
+| [GitGuardian](https://www.gitguardian.com/) |       |
+| [GitHub](https://github.com/home)           |       |
+| [Hanko](https://www.hanko.io/)              |       |
+| [Honeybadger](https://www.honeybadger.io/)  |       |
+| [Namecheap](https://www.namecheap.com/)     |       |
+| [npm](https://www.npmjs.com/)               |       |
+| [Tolgee](https://tolgee.io/)                |       |
+|                                             |       |
+
+| Name                                       | Notes |
+| ------------------------------------------ | ----- |
+| BadgeApp                                   |       |
+| Blockly                                    |       |
+| [Boxy SVG Editor]()                        |       |
+| Cytoscape.js                               |       |
+| [Draw.io](https://app.diagrams.net/)       |       |
+| Icônes (Lucide, Pictogrammers, Streamline) |       |
+| Micromark                                  |       |
+| Nuxt                                       |       |
+| Rust                                       |       |
+| Tailwind                                   |       |
+| TanStack Virtual                           |       |
+| TypeScript (JavaScript)                    |       |
+| Vite                                       |       |
+| Vue                                        |       |
+
 ## Tasks
 
-[Configure Laptop](<./Configure Laptop.md>)
+[Configure Development Computer](<./Configure Laptop.md>)
