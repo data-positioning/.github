@@ -48,22 +48,36 @@ Services used to support the development environment:
 | [npm](https://www.npmjs.com/)               | Package deployment      |
 | [Tolgee](https://tolgee.io/)                | Language translation.   |
 
-| Name                                       | Notes |
-| ------------------------------------------ | ----- |
-| BadgeApp                                   |       |
-| Blockly                                    |       |
-| Boxy SVG Editor                            |       |
-| Cytoscape.js                               |       |
-| [Draw.io](https://app.diagrams.net/)       |       |
-| Icônes (Lucide, Pictogrammers, Streamline) |       |
-| Micromark                                  |       |
-| Nuxt                                       |       |
-| Rust                                       |       |
-| Tailwind                                   |       |
-| TanStack Virtual                           |       |
-| TypeScript (JavaScript)                    |       |
-| Vite                                       |       |
-| Vue                                        |       |
+| Name                                       | Notes                                                                                        |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| BadgeApp                                   |                                                                                              |
+| Blockly                                    |                                                                                              |
+| Boxy SVG Editor                            |                                                                                              |
+| Cytoscape.js                               |                                                                                              |
+| [Draw.io](https://app.diagrams.net/)       |                                                                                              |
+| ESLint                                     | [eslint](https://eslint.org/)                                                                |
+|                                            | [eslint-plugin-import]()                                                                     |
+|                                            | [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security),              |
+|                                            | [@types/eslint-plugin-security](https://www.npmjs.com/package/@types/eslint-plugin-security) |
+|                                            | [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)                 |
+|                                            | [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)                 |
+|                                            | [@typescript-eslint/eslint-plugin]()                                                         |
+|                                            | [@typescript-eslint/parser]()                                                                |
+|                                            | []()                                                                                         |
+|                                            | []()                                                                                         |
+|                                            | []()                                                                                         |
+| Icônes (Lucide, Pictogrammers, Streamline) |                                                                                              |
+| Micromark                                  |                                                                                              |
+| Nuxt / Vue                                 |                                                                                              |
+| Prettier                                   | [prettier](https://prettier.io/)]                                                            |
+| Rust                                       |                                                                                              |
+| Tailwind                                   |                                                                                              |
+| TanStack Virtual                           |                                                                                              |
+| TypeScript (JavaScript)                    |                                                                                              |
+| Vite                                       | [vite](https://vite.dev/)                                                                    |
+|                                            | [vite-bundle-visualizer](https://www.npmjs.com/package/vite-bundle-visualizer)               |
+|                                            | [vite-plugin-dts](https://www.npmjs.com/package/vite-plugin-dts)                             |
+|                                            | [vitest](https://vitest.dev/)                                                                |
 
 ## Tasks
 
