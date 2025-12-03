@@ -1,0 +1,5 @@
+# Common git ignore configuration for unpublished Data Positioning repositories.
+dist-scripts
+node_modules
+.env
+**/.DS_Store

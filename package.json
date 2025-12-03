@@ -1,0 +1,11 @@
+{
+    "name": ".github",
+    "version": "0.0.2",
+    "devDependencies": {
+        "@datapos/datapos-development": "^0.3.253",
+        "prettier": "^3.7.4"
+    },
+    "scripts": {
+        "sync": "node -e \"import('@datapos/datapos-development').then(m => m.syncProjectWithGitHub())\""
+    }
+}
