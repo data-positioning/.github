@@ -1,4 +1,4 @@
-### Data Positioning (@datapos) repositories:
+### Data Positioning Projects (@datapos repositories):
 
 **Application:** datapos-api _(private)_, datapos-app-nuxt _(private)_, datapos-engine _(private)_, datapos-resources _(private)_, datapos-shared & eslint-config-datapos.
 
