@@ -52,7 +52,7 @@ Services used to support the development environment:
 | [Shields.io](https://shields.io/)            | Badges.                               |
 | [Tolgee](https://tolgee.io/)                 | Language translation.                 |
 
-| Name                                                 |                                   | Notes                                                |
+| Product/Vendor                                       |                                   | Notes                                                |
 | ---------------------------------------------------- | --------------------------------- | ---------------------------------------------------- |
 | [Blockly](<(https://developers.google.com/blockly)>) | blockly visual programming editor |                                                      |
 | [Cytoscape.js](https://js.cytoscape.org/)            |                                   |                                                      |
@@ -80,7 +80,7 @@ Services used to support the development environment:
 | node |     |       |
 | npm  |     |       |
 
-| Name                    |                               | Notes                                                                                                                                 |
+| Product/Vendor          |                               | Notes                                                                                                                                 |
 | ----------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | ESLint                  | eslint                        | [eslint](https://eslint.org/)                                                                                                         |
 |                         | eslint nuxt                   | [@nuxt/eslint]()                                                                                                                      |
