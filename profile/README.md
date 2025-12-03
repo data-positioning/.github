@@ -1,13 +1,13 @@
-### Data Positioning (datapos) repositories:
+### Data Positioning (@datapos) repositories:
 
-**Application:** api *(private)*, app-nuxt *(private)*, engine *(private)*, resources *(private)* & shared.
+**Application:** datapos-api _(private)_, datapos-app-nuxt _(private)_, datapos-engine _(private)_, datapos-resources _(private)_, datapos-shared & eslint-config-datapos.
 
-**Connectors:** application-emulator, dexie-js, *dbnomics*, *dropbox*, file-store-emulator, *google-drive*, *microsoft-onedrive*, *rxdb*, *salesforce* & *sap-successfactors*.
+**Connectors (@datapos/datapos-connector-[name]):** application-emulator, dexie-js, _dbnomics_, _dropbox_, file-store-emulator, _google-drive_, _microsoft-onedrive_, _rxdb_, _salesforce_ & _sap-successfactors_.
 
-**Contexts:** default.
+**Contexts (@datapos/datapos-context-[name]):** default.
 
-**Presenters:** default.
+**Presenters (@datapos/datapos-presenter-[name]):** default.
 
-**Tools:** *chart-js*, *csv-parse*, *date-fns*, highcharts & micromark.
+**Tools (@datapos/datapos-tool-[name]):** _chart-js_, _csv-parse_, _date-fns_, highcharts & micromark.
 
-**Support:** development.
+**Support:** datapos-development.
