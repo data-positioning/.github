@@ -29,7 +29,7 @@ A collection of Data Positioning top level project documentation and resources.
 
 ## Project Dependencies
 
-![](Project%20Dependencies.drawio.svg 'Project Dependencies')
+![](Project%20Dependencies.svg 'Project Dependencies')
 
 ## Tasks
 
