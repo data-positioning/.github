@@ -119,4 +119,4 @@ Services used to support the development environment:
 
 ## Tasks
 
-[Configure Development Computer](<.documents/Configure Laptop.md>)
+[Configure Development Computer](<./documents/Configure Laptop.md>)
