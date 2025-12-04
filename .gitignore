@@ -1,4 +1,5 @@
 # Common git ignore configuration for unpublished Data Positioning repositories.
+dist
 dist-scripts
 node_modules
 .env
