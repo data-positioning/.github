@@ -1,4 +1,4 @@
-# Common git ignore configuration for unpublished Data Positioning repositories.
+# Common Git ignore rules for UNPUBLISHED Data Positioning repositories.
 dependency-check-bin
 dist
 dist-scripts

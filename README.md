@@ -27,9 +27,17 @@ A collection of Data Positioning top level project documentation and resources.
 
 ## Resources
 
-[.gitattributes](.gitattributes)
+Common resources (files) used across al Data Positioning projects.
 
-[VSCode Key Bindings (.json)](resources/vsCodeKeyBindings.json)
+| Name                                          | File                                                                 |
+| --------------------------------------------- | -------------------------------------------------------------------- |
+| ESLint rules                                  | [eslint.config.ts](eslint.config.ts)                                 |
+| Git path attributes                           | [.gitattributes](.gitattributes)                                     |
+| Git ignore rules for published repositories   | [resources/.gitignore](resources/.gitignore)                         |
+| Git ignore rules for unpublished repositories | [.gitignore](.gitignore)                                             |
+| LICENSE                                       | [LICENSE](LICENSE)                                                   |
+| Markdown lint rules                           | [.markdownlint.json](.markdownlint.json)                             |
+| VS Code key bindings                          | [resources/vsCodeKeyBindings.json](resources/vsCodeKeyBindings.json) |
 
 ## Software & Services
 

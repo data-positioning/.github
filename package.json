@@ -1,11 +1,27 @@
 {
     "name": ".github",
-    "version": "0.0.18",
+    "version": "0.0.19",
+    "prettier": "@datapos/datapos-development/prettierrc",
     "devDependencies": {
-        "@datapos/datapos-development": "^0.3.253",
-        "prettier": "^3.7.4"
+        "@datapos/datapos-development": "^0.3.297",
+        "@datapos/eslint-config-datapos": "^1.0.5",
+        "@typescript-eslint/eslint-plugin": "^8.49.0",
+        "@typescript-eslint/parser": "^8.49.0",
+        "eslint": "^9.39.1",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-security": "^3.0.1",
+        "eslint-plugin-sonarjs": "^3.0.5",
+        "eslint-plugin-unicorn": "^62.0.0",
+        "jiti": "^2.6.1",
+        "npm-check-updates": "^19.1.2",
+        "prettier": "^3.7.4",
+        "typescript": "^5.9.3"
     },
     "scripts": {
-        "sync": "node -e \"import('@datapos/datapos-development').then(m => m.syncProjectWithGitHub())\""
+        "check": "node -e \"import('@datapos/datapos-development').then(m => m.checkDependencies())\"",
+        "format": "node -e \"import('@datapos/datapos-development').then(m => m.formatCode())\"",
+        "lint": "node -e \"import('@datapos/datapos-development').then(m => m.lintCode())\"",
+        "sync": "node -e \"import('@datapos/datapos-development').then(m => m.syncProjectWithGitHub())\"",
+        "update": "node -e \"import('./dist/datapos-development.es.js').then(m => m.updateDataPosDependencies(['shared']))\""
     }
 }
