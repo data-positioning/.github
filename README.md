@@ -27,7 +27,7 @@ A collection of Data Positioning top level project documentation and resources.
 
 ## Resources
 
-Common resources (files) used across al Data Positioning projects.
+Common resources (files) used across Data Positioning projects.
 
 | Name                                          | File                                                                 |
 | --------------------------------------------- | -------------------------------------------------------------------- |
