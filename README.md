@@ -25,6 +25,12 @@ A collection of Data Positioning top level project documentation and resources.
 |             | datapos-tool-highcharts                | tool                   |                                                                             |
 |             | datapos-tool-presenter                 | tool                   |                                                                             |
 
+## Resources
+
+[.gitattributes](.gitattributes)
+
+[VSCode Key Bindings (.json)](resources/vsCodeKeyBindings.json)
+
 ## Software & Services
 
 Services used to support the production environment:
