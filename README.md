@@ -1,29 +1,41 @@
 # Data Positioning (.github)
 
-A collection of Data Positioning top level project documentation and resources.
+A collection of top-level Data Positioning project documentation and resources. This is a special GitHub organization-level repository.
 
-## Project (repository) Schematic
+## Data Positioning Repositories Schematic
+
+This schematic presents a high-level view of the repositories in the Data Positioning organization and their relationships to one another.
 
 ![](Project%20Dependencies.svg 'Project Dependencies')
 
-| Category    | Name                                   | Type                   | Notes                                                                       |
-| ----------- | -------------------------------------- | ---------------------- | --------------------------------------------------------------------------- |
-|             | .github                                | documentation          | This repository.                                                            |
-| development | datapos-development                    | utilities (node)       | A library of utilities for managing the Data Positioning repositories.      |
-|             | eslint-config-datapos                  | eslintConfig           | Base ESLint configuration used by all Data Positioning (@datapos) projects. |
-| production  | datapos-api \*                         | api                    |                                                                             |
-|             | datapos-app-nuxt \*                    | app                    |                                                                             |
-|             | datapos-engine \*                      | engine                 |                                                                             |
-|             | datapos-resources \*                   | assets                 |                                                                             |
-|             | datapos-shared                         | declarations/utilities |                                                                             |
-|             | datapos-connector-application-emulator | connector              |                                                                             |
-|             | datapos-connector-dexie-js             | connector              |                                                                             |
-|             | datapos-connector-file-store-emulator  | connector              |                                                                             |
-|             | datapos-connector-rxdb                 | connector              |                                                                             |
-|             | datapos-context-default                | context                |                                                                             |
-|             | datapos-presenter-default              | presenter              |                                                                             |
-|             | datapos-tool-highcharts                | tool                   |                                                                             |
-|             | datapos-tool-presenter                 | tool                   |                                                                             |
+### Development Repositories
+
+The following repositories exist solely to support the development process and are not used in production or distributed in any form.
+
+| Name                  | Type             | Notes                                                                       |
+| --------------------- | ---------------- | --------------------------------------------------------------------------- |
+| datapos-development   | utilities (node) | A library of utilities for managing the Data Positioning repositories.      |
+| eslint-config-datapos | eslintConfig     | Base ESLint configuration used by all Data Positioning (@datapos) projects. |
+
+### Production Repositories
+
+The following repositories contain production-ready code and are used in live environments and/or distributed as part of the final product.
+
+| Name                                   | Type       | Notes                                                                                          |
+| -------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| datapos-api \*                         | api        |                                                                                                |
+| datapos-app-nuxt \*                    | app        |                                                                                                |
+| datapos-engine \*                      | engine     |                                                                                                |
+| datapos-resources \*                   | assets     |                                                                                                |
+| datapos-shared                         | primitives | Common constants, interfaces, types and utilities shared across all Data Positioning projects. |
+| datapos-connector-application-emulator | connector  |                                                                                                |
+| datapos-connector-dexie-js             | connector  |                                                                                                |
+| datapos-connector-file-store-emulator  | connector  |                                                                                                |
+| datapos-connector-rxdb                 | connector  |                                                                                                |
+| datapos-context-default                | context    |                                                                                                |
+| datapos-presenter-default              | presenter  |                                                                                                |
+| datapos-tool-highcharts                | tool       |                                                                                                |
+| datapos-tool-presenter                 | tool       |                                                                                                |
 
 ## Resources
 
