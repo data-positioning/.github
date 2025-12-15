@@ -39,22 +39,23 @@ The following repositories contain production-ready code and are used in live en
 
 ## Software & Services
 
-Services used to support the production environment:
+Services used to support the production environment.
 
 | Name                                       | Notes                                                                       |
 | ------------------------------------------ | --------------------------------------------------------------------------- |
 | Alby Chat                                  |                                                                             |
-| [Checkly](https://www.checklyhq.com/)      | Response and uptime monitoring.                                             |
+| [Checkly](https://www.checklyhq.com/)      | Response time monitoring. Uptime & heartbeat monitoring.                    |
 | [Cloudflare](https://www.cloudflare.com/)  | Domain registration, application hosting, file storage and state messaging. |
-| [Cronitor](https://cronitor.io/)           | Uptime monitoring.                                                          |
+| [Cronitor](https://cronitor.io/)           | Uptime & heartbeat monitoring.                                              |
 | [Hanko](https://www.hanko.io/)             | Authentication and user management.                                         |
-| [Honeybadger](https://www.honeybadger.io/) | Error logging and uptime monitoring.                                        |
+| [Honeybadger](https://www.honeybadger.io/) | Error tracking and logging. Uptime, cron & heartbeat monitoring.            |
 | [Namecheap](https://www.namecheap.com/)    | Email hosting.                                                              |
 
-Services used to support the development environment:
+Services and tools used to support the development environment.
 
 | Name                                         | Notes                                 |
 | -------------------------------------------- | ------------------------------------- |
+| [1Password](https://1password.com/)          |                                       |
 | [BadgeApp](https://www.bestpractices.dev/en) | OpenSSF best practices badge program. |
 | [Boxy SVG Editor](https://boxy-svg.com/)     | SVG image editor.                     |
 | [Draw.io](https://drawio-app.com/)           |                                       |
