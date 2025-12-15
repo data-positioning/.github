@@ -1,27 +1,33 @@
 {
     "name": ".github",
-    "version": "0.0.23",
+    "version": "0.0.24",
     "prettier": "@datapos/datapos-development/prettierrc",
     "devDependencies": {
-        "@datapos/datapos-development": "^0.3.298",
-        "@datapos/eslint-config-datapos": "^1.0.12",
+        "@datapos/datapos-development": "^0.3.368",
+        "@datapos/eslint-config-datapos": "^1.0.18",
         "@typescript-eslint/eslint-plugin": "^8.49.0",
         "@typescript-eslint/parser": "^8.49.0",
-        "eslint": "^9.39.1",
+        "eslint": "^9.39.2",
         "eslint-plugin-import": "^2.32.0",
         "eslint-plugin-security": "^3.0.1",
         "eslint-plugin-sonarjs": "^3.0.5",
         "eslint-plugin-unicorn": "^62.0.0",
         "jiti": "^2.6.1",
-        "npm-check-updates": "^19.1.2",
+        "npm-check-updates": "^19.2.0",
         "prettier": "^3.7.4",
         "typescript": "^5.9.3"
     },
     "scripts": {
+        "audit": "echo \"❌ 'audit' command not implemented.\"",
+        "build": "echo \"❌ 'build' command not implemented.\"",
         "check": "node -e \"import('@datapos/datapos-development').then(m => m.checkDependencies())\"",
+        "document": "echo \"❌ 'document' command not implemented.\"",
         "format": "node -e \"import('@datapos/datapos-development').then(m => m.formatCode())\"",
         "lint": "node -e \"import('@datapos/datapos-development').then(m => m.lintCode())\"",
+        "release": "echo \"❌ 'release' command not implemented.\"",
         "sync": "node -e \"import('@datapos/datapos-development').then(m => m.syncProjectWithGitHub())\"",
-        "update": "node -e \"import('./dist/datapos-development.es.js').then(m => m.updateDataPosDependencies(['shared']))\""
+        "test:e2e": "echo \"❌ 'test:e2e' command not implemented.\"",
+        "test:unit": "echo \"❌ 'test:unit' command not implemented.\"",
+        "update": "node -e \"import('@datapos/datapos-development').then(m => m.updateDataPosDependencies(['development']))\""
     }
 }
