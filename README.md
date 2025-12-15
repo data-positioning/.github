@@ -1,6 +1,6 @@
 # Data Positioning (.github)
 
-A collection of top-level Data Positioning project documentation and resources. This is a special GitHub organization-level repository.
+A collection of top-level Data Positioning project documentation. This is a special GitHub organization-level repository.
 
 ## Data Positioning Repositories Schematic
 
@@ -36,20 +36,6 @@ The following repositories contain production-ready code and are used in live en
 | datapos-presenter-default              | presenter  |                                                                                                |
 | datapos-tool-highcharts                | tool       |                                                                                                |
 | datapos-tool-presenter                 | tool       |                                                                                                |
-
-## Resources
-
-Common resources (files) used across Data Positioning projects.
-
-| Name                                          | File                                                                 |
-| --------------------------------------------- | -------------------------------------------------------------------- |
-| ESLint rules                                  | [eslint.config.ts](eslint.config.ts)                                 |
-| Git path attributes                           | [.gitattributes](.gitattributes)                                     |
-| Git ignore rules for published repositories   | [resources/.gitignore](resources/.gitignore)                         |
-| Git ignore rules for unpublished repositories | [.gitignore](.gitignore)                                             |
-| LICENSE                                       | [LICENSE](LICENSE)                                                   |
-| Markdown lint rules                           | [.markdownlint.json](.markdownlint.json)                             |
-| VS Code key bindings                          | [resources/vsCodeKeyBindings.json](resources/vsCodeKeyBindings.json) |
 
 ## Software & Services
 
