@@ -74,7 +74,6 @@ Services and tools used to support the development environment.
 |                                                      | micromark gfm table extension     | [micromark-extension-gfm-table ]()                   |
 | Nanoid                                               | nanoid                            | [nanoid()]                                           |
 | Nuxt (Vue)                                           | nuxt                              | [nuxt]()                                             |
-|                                                      | nuxt fonts                        | [@nuxt/fonts]()                                      |
 |                                                      | nuxt i18n                         | [@nuxtjs/i18n]()                                     |
 |                                                      | nuxt pinia                        | [@pinia/nuxt]()                                      |
 |                                                      | nuxt security                     | [nuxt-security]()                                    |
