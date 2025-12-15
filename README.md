@@ -4,9 +4,9 @@ A collection of top-level Data Positioning project documentation and resources. 
 
 ## Data Positioning Repositories Schematic
 
-This schematic presents a high-level view of the repositories in the Data Positioning organization and their relationships to one another.
+This schematic presents a high-level view of the repositories in the Data Positioning project and their relationships to one another.
 
-![](Project%20Dependencies.svg 'Project Dependencies')
+![Data Positioning Repositories Schematic](Project%20Dependencies.svg 'Data Positioning Project Repositories')
 
 ### Development Repositories
 
