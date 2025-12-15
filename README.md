@@ -39,11 +39,11 @@ The following repositories contain production-ready code and are used in live en
 
 ## Software & Services
 
-Services used to support the production environment.
+The following services are used to support the production environment.
 
 | Name                                       | Notes                                                                       |
 | ------------------------------------------ | --------------------------------------------------------------------------- |
-| Alby Chat                                  |                                                                             |
+| [Alby Chat]()                              |                                                                             |
 | [Checkly](https://www.checklyhq.com/)      | Response time monitoring. Uptime & heartbeat monitoring.                    |
 | [Cloudflare](https://www.cloudflare.com/)  | Domain registration, application hosting, file storage and state messaging. |
 | [Cronitor](https://cronitor.io/)           | Uptime & heartbeat monitoring.                                              |
@@ -51,7 +51,7 @@ Services used to support the production environment.
 | [Honeybadger](https://www.honeybadger.io/) | Error tracking and logging. Uptime, cron & heartbeat monitoring.            |
 | [Namecheap](https://www.namecheap.com/)    | Email hosting.                                                              |
 
-Services and tools used to support the development environment.
+The following services and tools are used to support the development environment.
 
 | Name                                         | Notes                                 |
 | -------------------------------------------- | ------------------------------------- |
@@ -69,22 +69,22 @@ Services and tools used to support the development environment.
 | ---------------------------------------------------- | --------------------------------- | ---------------------------------------------------- |
 | [Blockly](<(https://developers.google.com/blockly)>) | blockly visual programming editor |                                                      |
 | [Cytoscape.js](https://js.cytoscape.org/)            |                                   |                                                      |
-| Hanko                                                | hanko frontend sdk                | [@teamhanko/hanko-frontend-sdk]()                    |
-| Micromark                                            | micromark parser                  | [micromark](https://www.npmjs.com/package/micromark) |
+| [Hanko]()                                            | hanko frontend sdk                | [@teamhanko/hanko-frontend-sdk]()                    |
+| [Micromark]()                                        | micromark parser                  | [micromark](https://www.npmjs.com/package/micromark) |
 |                                                      | micromark gfm table extension     | [micromark-extension-gfm-table ]()                   |
-| Nanoid                                               | nanoid                            | [nanoid()]                                           |
-| Nuxt (Vue)                                           | nuxt                              | [nuxt]()                                             |
+| [Nanoid]()                                           | nanoid                            | [nanoid]()                                           |
+| [Nuxt]()                                             | nuxt                              | [nuxt]()                                             |
 |                                                      | nuxt i18n                         | [@nuxtjs/i18n]()                                     |
 |                                                      | nuxt pinia                        | [@pinia/nuxt]()                                      |
 |                                                      | nuxt security                     | [nuxt-security]()                                    |
 |                                                      | nuxt ui                           | [nuxt/ui]()                                          |
 |                                                      | nuxt vueuse                       | [@vueuse/nuxt]()                                     |
 |                                                      | nuxt vueuse router                | [@vueuse/router]()                                   |
-|                                                      | vue                               | [vue]()                                              |
+| [Vue]()                                              | vue                               | [vue]()                                              |
 |                                                      | vue router                        | [vue-router]()                                       |
 |                                                      | vue unhead                        | [@unhead/vue]()                                      |
-| Speed Highlight                                      | @speed highlight core             | [@speed-highlight/core ]()                           |
-| TanStack Virtual                                     | tanstack vue virtual              | [@tanstack/vue-virtual]()                            |
+| [Speed Highlight]()                                  | @speed highlight core             | [@speed-highlight/core ]()                           |
+| [TanStack Virtual]()                                 | tanstack vue virtual              | [@tanstack/vue-virtual]()                            |
 
 | Name |     | Notes |
 | ---- | --- | ----- |
@@ -92,42 +92,43 @@ Services and tools used to support the development environment.
 | node |     |       |
 | npm  |     |       |
 
-| Product/Vendor          |                               | Notes                                                                                                                                 |
-| ----------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| ESLint                  | eslint                        | [eslint](https://eslint.org/)                                                                                                         |
-|                         | eslint nuxt                   | [@nuxt/eslint]()                                                                                                                      |
-|                         | eslint typescript parser      | [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)                                                  |
-|                         | eslint typescript plugin      | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)                                    |
-|                         | eslint config datapos         | [eslint-datapos-import](https://www.npmjs.com/package/@datapos/eslint-config-datapos)                                                 |
-|                         | eslint plugin import          | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)                                                            |
-|                         | eslint plugin security        | [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security),                                                       |
-|                         | eslint plugin security types  | [@types/eslint-plugin-security](https://www.npmjs.com/package/@types/eslint-plugin-security)                                          |
-|                         | eslint plugin sonarjs         | [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)                                                          |
-|                         | eslint plugin unicorn         | [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)                                                          |
-| Icônes                  | Lucide                        | [Lucide by Lucide Contributors](https://icones.js.org/collection/lucide)                                                              |
-|                         | Pictogrammers                 | [Material Design Icons by Pictogrammers](https://icones.js.org/collection/mdi)                                                        |
-|                         | Streamline                    | [Ultimate Free Icons by Streamline](https://icones.js.org/collection/streamline-ultimate)                                             |
-| jiti                    | jiti                          | [jiti]()                                                                                                                              |
-| License Report          | license report                | [license-report]()                                                                                                                    |
-|                         | license report check          | [license-report-check]()                                                                                                              |
-|                         | license report recursive      | [license-report-recursive]()                                                                                                          |
-| Nanoid                  | nanoid                        | [nanoid()]                                                                                                                            |
-| Node                    | node types                    | [@types/node]()                                                                                                                       |
-| npm                     | npm check updates             | [npm-check-updates](npm-check-updates)                                                                                                |
-| Nuxt (Vue)              | nuxt test utils               | [@nuxt/test-utils]()                                                                                                                  |
-| OWASP Dependency Check  | owasp dependency check        | [owasp-dependency-check]()                                                                                                            |
-| Prettier                | prettier                      | [prettier](https://prettier.io/)]                                                                                                     |
-|                         | prettier tailwind plugin      | [prettier-plugin-tailwindcss]()                                                                                                       |
-| Rust                    |                               |                                                                                                                                       |
-| Tailwind                |                               | ?Where is this being referenced from? Would be could to include for doco purposes even if nuxt/ui or something else is installing it. |
-| TypeScript (JavaScript) | typescript                    |                                                                                                                                       |
-|                         | type fest                     | [type-fest](https://www.npmjs.com/package/type-fest)                                                                                  |
-| Vite                    | vite                          | [vite](https://vite.dev/)                                                                                                             |
-|                         | vite dts plugin               | [vite-plugin-dts](https://www.npmjs.com/package/vite-plugin-dts)                                                                      |
-|                         | vite pwa assets generator     | [@vite-pwa/assets-generator]()                                                                                                        |
-|                         | vite visualizer rollup plugin | [rollup-plugin-visualizer]()                                                                                                          |
-|                         | vitest                        | [vitest](https://vitest.dev/)                                                                                                         |
-| wrangler                |                               | See datapos-api.                                                                                                                      |
+| Product/Vendor              |                               | Notes                                                                                                                                 |
+| --------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [ESLint]()                  | eslint                        | [eslint](https://eslint.org/)                                                                                                         |
+|                             | eslint nuxt                   | [@nuxt/eslint]()                                                                                                                      |
+|                             | eslint typescript parser      | [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)                                                  |
+|                             | eslint typescript plugin      | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)                                    |
+|                             | eslint config datapos         | [eslint-datapos-import](https://www.npmjs.com/package/@datapos/eslint-config-datapos)                                                 |
+|                             | eslint plugin import          | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)                                                            |
+|                             | eslint plugin security        | [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security),                                                       |
+|                             | eslint plugin security types  | [@types/eslint-plugin-security](https://www.npmjs.com/package/@types/eslint-plugin-security)                                          |
+|                             | eslint plugin sonarjs         | [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)                                                          |
+|                             | eslint plugin unicorn         | [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)                                                          |
+| [Icônes]()                  | Lucide                        | [Lucide by Lucide Contributors](https://icones.js.org/collection/lucide)                                                              |
+|                             | Pictogrammers                 | [Material Design Icons by Pictogrammers](https://icones.js.org/collection/mdi)                                                        |
+|                             | Streamline                    | [Ultimate Free Icons by Streamline](https://icones.js.org/collection/streamline-ultimate)                                             |
+| [jiti]()                    | jiti                          | [jiti]()                                                                                                                              |
+| [License Report]()          | license report                | [license-report]()                                                                                                                    |
+|                             | license report check          | [license-report-check]()                                                                                                              |
+|                             | license report recursive      | [license-report-recursive]()                                                                                                          |
+| [Nanoid]()                  | nanoid                        | [nanoid]()                                                                                                                            |
+| [Node]()                    | node types                    | [@types/node]()                                                                                                                       |
+| [npm]()                     | npm check updates             | [npm-check-updates](npm-check-updates)                                                                                                |
+| [Nuxt]()                    | nuxt test utils               | [@nuxt/test-utils]()                                                                                                                  |
+| [OWASP Dependency Check]()  | owasp dependency check        | [owasp-dependency-check]()                                                                                                            |
+| [Playwright]()              | playwright                    | [playwright]()]                                                                                                                       |
+| [Prettier]()                | prettier                      | [prettier](https://prettier.io/)]                                                                                                     |
+|                             | prettier tailwind plugin      | [prettier-plugin-tailwindcss]()                                                                                                       |
+| [Rust]()                    |                               |                                                                                                                                       |
+| [Tailwind]()                |                               | ?Where is this being referenced from? Would be could to include for doco purposes even if nuxt/ui or something else is installing it. |
+| [TypeScript]() (JavaScript) | typescript                    |                                                                                                                                       |
+|                             | type fest                     | [type-fest](https://www.npmjs.com/package/type-fest)                                                                                  |
+| [Vite]()                    | vite                          | [vite](https://vite.dev/)                                                                                                             |
+|                             | vite dts plugin               | [vite-plugin-dts](https://www.npmjs.com/package/vite-plugin-dts)                                                                      |
+|                             | vite pwa assets generator     | [@vite-pwa/assets-generator]()                                                                                                        |
+|                             | vite visualizer rollup plugin | [rollup-plugin-visualizer]()                                                                                                          |
+| [Vitest]()                  | vitest                        | [vitest](https://vitest.dev/)                                                                                                         |
+| [Wrangler]()                | wrangler                      | See datapos-api & datapos-app-nuxt.                                                                                                   |
 
 ## Tasks
 
