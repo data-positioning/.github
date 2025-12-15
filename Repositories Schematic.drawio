@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="2O5--SVngWuGJgE4CyUk">
-        <mxGraphModel dx="839" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1109" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -33,9 +33,6 @@
                 </mxCell>
                 <mxCell id="8" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;datapos-&lt;/span&gt;presenter-default&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(TypeScript)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="380" y="430" width="160" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="240" width="180" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;datapos-&lt;/span&gt;engine&lt;br&gt;(TypeScript / Rust)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="380" y="250" width="160" height="60" as="geometry"/>
