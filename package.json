@@ -1,11 +1,13 @@
 {
     "name": "github",
-    "version": "0.0.34",
+    "version": "0.0.35",
     "description": "A collection of top-level Data Positioning project documentation.",
+    "author": "Jonathan Terrell <terrell.jm@gmail.com>",
+    "private": false,
     "prettier": "@datapos/datapos-development/prettierrc",
     "devDependencies": {
-        "@datapos/datapos-development": "^0.3.368",
-        "@datapos/eslint-config-datapos": "^1.0.18",
+        "@datapos/datapos-development": "^0.3.394",
+        "@datapos/eslint-config-datapos": "^1.0.19",
         "@typescript-eslint/eslint-plugin": "^8.50.0",
         "@typescript-eslint/parser": "^8.50.0",
         "eslint": "^9.39.2",
